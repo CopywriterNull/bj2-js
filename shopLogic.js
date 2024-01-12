@@ -244,13 +244,13 @@ var productIdsToFetch = window.SHOP_CONFIG
 									}
 									elTitle.addEventListener('click', function () {
 										var optionParent = elTitle.closest('.shop-custom-option');
-										optionParent.classList.add('active')
+										// optionParent.classList.add('active')
 										var body = document.querySelector('body');
 										body.style.overflow = 'hidden';
 									})
 									elCloseValues.addEventListener('click', function() {
 										var optionParent = elCloseValues.closest('.shop-custom-option');
-										optionParent.classList.remove('active');
+										// optionParent.classList.remove('active');
 										var body = document.querySelector('body');
 										body.style.overflow = 'unset';
 									})
