@@ -542,3 +542,4 @@ var productIdsToFetch = window.SHOP_CONFIG
 					return String(id) === String(variant.id);
 				});
 			}
+console.log("10:26 PST");
